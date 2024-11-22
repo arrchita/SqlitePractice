@@ -42,11 +42,3 @@ SQLite is a lightweight, serverless, self-contained, high-performance, embedded 
      val cursor: Cursor = db.rawQuery("SELECT * FROM " + TABLE_NAME, null)
      // ... (iterate over cursor to extract data)
      ```
-
-4. **Activity Implementation:**
-   - Design your UI with necessary elements like EditText, Button, etc.
-   - Implement click listeners for the buttons.
-   - Use the `DBHelper` class to perform database operations.
-   - Display the results in a suitable format, such as a TextView or a RecyclerView.
-
-```
