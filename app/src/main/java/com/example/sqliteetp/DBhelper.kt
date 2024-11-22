@@ -47,11 +47,11 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory?) :
 
     companion object{
 
-        private val DATABASE_NAME = "GEEKS_FOR_GEEKS"
+        private val DATABASE_NAME = "archita_etp"
 
         private val DATABASE_VERSION = 1
 
-        val TABLE_NAME = "gfg_table"
+        val TABLE_NAME = "etp_table"
 
         val ID_COL = "id"
 
