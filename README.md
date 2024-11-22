@@ -49,27 +49,4 @@ SQLite is a lightweight, serverless, self-contained, high-performance, embedded 
    - Use the `DBHelper` class to perform database operations.
    - Display the results in a suitable format, such as a TextView or a RecyclerView.
 
-**Additional Tips:**
-
-- **Error Handling:** Implement proper error handling mechanisms to catch exceptions and provide informative messages to the user.
-- **Asynchronous Tasks:** For long-running database operations, use asynchronous tasks like `AsyncTask` or `Coroutine` to avoid blocking the UI thread.
-- **Data Validation:** Validate user input to ensure data integrity and prevent invalid data from being stored.
-- **Security:** If your app handles sensitive data, consider using encryption techniques to protect it.
-
-**Example Code:**
-
-```kotlin
-// ... (DBHelper class implementation)
-
-class MainActivity : AppCompatActivity() {
-    // ... (UI elements and DBHelper instance)
-
-    fun addData(view: View) {
-        // ... (get data from EditText, insert into database)
-    }
-
-    fun viewData(view: View) {
-        // ... (retrieve data from database, display in a TextView or RecyclerView)
-    }
-}
 ```
